@@ -1,0 +1,15 @@
+/*****
+subgraph 4 sim: 0.91
+*****/
+
+graph G {
+  graph [splines=false overlap=false]
+  node  [shape=ellipse, width=0.3, height=0.3]
+  372 [style=filled, fillcolor="blue"];
+  373 ;
+  374 ;
+  372 -- 373;
+  372 -- 374;
+  373 -- 374;
+  label = "\nsubgraph 4 sim: 0.91\n";  fontsize=24;
+}

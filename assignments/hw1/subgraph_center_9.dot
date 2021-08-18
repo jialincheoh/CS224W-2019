@@ -1,0 +1,28 @@
+/*****
+subgraph_center_9
+*****/
+
+graph G {
+  graph [splines=false overlap=false]
+  node  [shape=ellipse, width=0.3, height=0.3]
+  7 ;
+  8 ;
+  9 [style=filled, fillcolor="blue"];
+  10 ;
+  11 ;
+  1424 ;
+  1425 ;
+  1532 ;
+  7 -- 8;
+  7 -- 9;
+  7 -- 10;
+  7 -- 11;
+  9 -- 10;
+  9 -- 11;
+  9 -- 1424;
+  9 -- 1425;
+  9 -- 1532;
+  10 -- 11;
+  1424 -- 1425;
+  label = "\nsubgraph_center_9\n";  fontsize=24;
+}
